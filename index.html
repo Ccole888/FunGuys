@@ -7,9 +7,18 @@
     <link rel="stylesheet" href="style.css">
 <body>
     <div class="editBar">
-        <button class="barBtn import">import</h>
         <button class="barBtn crop">Crop</h>
-        <button class="barBtn export">Export</h>
     </div>
 </body>
+
+<script>
+    const cropButton = document.querySelector(".barBtn.crop");
+
+    function cropClick(){
+        alert("Button Clicked");
+    }
+
+    cropButton.addEventListener('click', cropClick);
+
+</script>
 </html>

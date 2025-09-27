@@ -1,8 +1,8 @@
 .editBar{
     position: relative;
-    background-color: gray;
+    background-color: rgb(65, 64, 64);
     width: 100%;
-    height: 60px;
+    height: 50px;
 }
 
 .barBtn{
@@ -10,20 +10,19 @@
     top: 0;
     width: 60px;
     font-size: small;
-    color: black;
+    color: white;
+    background-color: rgb(99, 98, 98);
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
 }
 
-.barBtn.import{
-    left: 0px;
-}
 
 .barBtn.crop{
-    left: 60px;
+    left: 0;
+    width: 60px;
+    height: 50px;
 }
 
-.barBtn.export{
-    left: 120px;
-}
 
 
 body{
