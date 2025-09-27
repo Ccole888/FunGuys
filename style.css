@@ -1,0 +1,35 @@
+.editBar{
+    position: relative;
+    background-color: gray;
+    width: 100%;
+    height: 60px;
+}
+
+.barBtn{
+    position: absolute;
+    top: 0;
+    width: 60px;
+    font-size: small;
+    color: black;
+}
+
+.barBtn.import{
+    left: 0px;
+}
+
+.barBtn.crop{
+    left: 60px;
+}
+
+.barBtn.export{
+    left: 120px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
